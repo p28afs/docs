@@ -1,0 +1,103 @@
+DX Core 4 - Speaker Narration
+
+Purpose: 20-minute engaging narration to deliver alongside the 4-slide deck.
+
+
+Slide 1: DX Core 4: measure productivity without measuring people
+Approx. 4-5 minutes
+
+Let me start with the question that is probably in the room already.
+
+When engineers hear the words “productivity metrics”, many do not hear “improvement”. They hear “am I being watched?”, “will this become another dashboard?”, or “are we going to reward the person who raises the most PRs?”
+
+That concern is valid. Because historically, engineering productivity has often been measured using whatever was easiest to count: commits, diffs, PRs, deployments, incidents, story points, defects and survey scores. These are useful signals, but on their own they can be misleading.
+
+A high number of PRs may mean good decomposition. It may also mean churn. More deployments may mean strong delivery. It may also mean more risk if quality is not stable. Low incident numbers may mean quality is high. It may also mean teams are not changing much.
+
+This is why DX Core 4 is interesting. It does not ask us to believe one number. It forces a balanced conversation across four lenses: Speed, Effectiveness, Quality and Business Impact.
+
+The important reassurance is this: the goal is not to measure individual developers. The goal is to measure the system around developers. Where are we slow? Where is the friction? Where are we creating rework? Where are teams spending time but not creating value?
+
+There is also an Atlassian connection now. Atlassian completed its acquisition of DX in November 2025, positioning DX as an engineering intelligence capability, especially relevant as organisations try to understand the real impact of AI investments. That does not make DX Core 4 a “Jira scorecard”. It should be used as a responsible framework, not a surveillance tool.
+
+So the first message is simple: productivity is not “how busy are people?”. Productivity is “how well does our engineering system convert effort into safe, valuable outcomes?”
+
+Transition: Once we agree that this is about improving the system, the next question is: what does the system feel like to the people doing the work? That is where Developer Experience matters.
+
+
+Slide 2: Developer Experience: the leading indicator to improve
+Approx. 5 minutes
+
+Developer Experience, or DevEx, is a simple idea with a lot of power behind it. It asks: how easy is it for capable developers to do excellent work?
+
+That is a much better question than “how many hours did someone code?” Because a developer’s day is not just coding. It includes understanding requirements, finding the right service, waiting for builds, chasing environment issues, reviewing PRs, checking production behaviour, handling incidents, answering questions, and trying to make sense of complex systems.
+
+If we only measure the visible output, we miss the invisible work. And the invisible work is often where the real productivity loss sits.
+
+DevEx research commonly talks about three practical dimensions.
+
+First, feedback loops. How quickly do developers get useful feedback? From tests, builds, code reviews, environments, production monitoring and subject matter experts. Slow feedback loops turn small tasks into long cycles.
+
+Second, cognitive load. How much mental effort is wasted because the architecture is hard to understand, documentation is weak, requirements are unclear, or tools are fragmented? High cognitive load does not mean developers are weak. It means the system is asking them to carry too much in their head.
+
+Third, flow state. Can developers get protected time to think deeply, solve hard problems and finish work without constant interruption?
+
+This is why DevEx is often a leading indicator. If feedback is slow, cognitive load is high and flow is constantly broken, productivity will eventually show up as slower delivery, poorer quality or frustration. If we improve those conditions, we make better outcomes more likely.
+
+The reassurance to developers is important: DevEx is not about making life comfortable at the expense of delivery. It is about removing avoidable friction so skilled people can spend more time on meaningful engineering work.
+
+Transition: DevEx is one lens. But it is not the only one. To understand DX Core 4 properly, we need to see how it relates to the other well-known frameworks.
+
+
+Slide 3: DORA + SAFe + SPACE + DevEx -> DX Core 4
+Approx. 5-6 minutes
+
+There are several frameworks in this space, and each one tells part of the story.
+
+DORA is probably the best-known one for software delivery performance. It focuses on delivery speed and stability: lead time for changes, deployment frequency, change failure rate and recovery time after failed deployments. DORA is very useful because it connects engineering delivery to reliability. But it does not tell the whole human or business story.
+
+SAFe Flow metrics look at how value moves through a larger delivery system. They help us see flow velocity, flow time, flow load, flow efficiency, flow distribution and predictability. In plain language: how much work is moving, how long it takes, how much is waiting, and whether we are overloading the system.
+
+SPACE gives us a broader view of developer productivity. It reminds us that productivity is multi-dimensional: satisfaction and well-being, performance, activity, communication and collaboration, and efficiency and flow. The key point from SPACE is that no single metric should be treated as productivity.
+
+DevEx then brings the developer’s lived experience into the conversation: feedback loops, cognitive load and flow state.
+
+DX Core 4 tries to bring those threads together into one balanced operating model. The four lenses are Speed, Effectiveness, Quality and Business Impact.
+
+Speed asks: how quickly does work reach users?
+
+Effectiveness asks: can developers make progress without unnecessary friction?
+
+Quality asks: are we delivering safely and reliably?
+
+Business Impact asks: is the engineering effort producing value that matters?
+
+The counter-balance is the key. If speed improves but quality drops, productivity has not really improved. If developers feel faster but business outcomes do not move, we may have local optimisation but not value. If impact improves but teams are burning out, that is not sustainable.
+
+The best question to ask after any improvement is not “did one metric go up?” The better question is: what changed across all four lenses?
+
+Transition: That balanced question becomes even more important now, because AI and agents are changing the shape of software delivery.
+
+
+Slide 4: AI era: combine Human DevEx + Agent Experience
+Approx. 4-5 minutes
+
+The AI era makes this conversation more urgent, not less.
+
+It is tempting to measure AI by adoption. How many developers use the tool? How many PRs are AI-assisted? How much AI-generated code reached production? How many tasks were assigned to agents? What was the token cost?
+
+Those numbers are useful. But they do not prove value on their own.
+
+The better question is: did AI improve the DX Core 4 outcomes without damaging quality, trust or developer confidence?
+
+For human developers, we need to ask whether AI actually helps them understand, trust, review and safely use output. Does it remove toil? Does it reduce waiting? Does it make delivery easier? Or does it create more review burden, more uncertainty and more rework?
+
+That leads to the newer idea of Agent Experience. Think of it as similar in spirit to Developer Experience, but for AI agents. If an agent is asked to do useful work, does it have clear intent, the right context, access to tools and environments, good evaluation criteria, and a clean handoff back to humans?
+
+Poor Agent Experience will look very familiar to developers: unclear requirements, missing context, blocked access, weak feedback and no good way to know whether the output is safe.
+
+The future is not human productivity versus agent productivity. It is the productivity of a combined system. Humans provide judgement, intent, architecture, risk ownership and review. Agents can help with repetitive work, first drafts, search, code changes, test generation and operational support. But the whole system needs to be measured responsibly.
+
+So my closing thought is this: DX Core 4 is not a dashboard to judge people. Used well, it is a way to make hidden friction visible. It helps us show the waiting, searching, rework and coordination cost that developers already know is there. And in the AI era, it gives us a better way to ask whether both humans and agents are actually making engineering better.
+
+Close: The takeaway is not “measure more”. The takeaway is “measure the right things, explain why, and use the results to improve the system”.
